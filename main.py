@@ -3,7 +3,6 @@ import pyautogui
 from skimage.metrics import structural_similarity as ssim
 import numpy as np
 import cv2
-import tkinter as tk
 
 
 # path to location to store screenshots
