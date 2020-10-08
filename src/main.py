@@ -64,7 +64,7 @@ def start():
     counter += 1
     while (True):
         new_image, new_image_grey = take_screenshot()
-        if compare_images(last_image_grey, new_image_grey, 'first try'):
+        if compare_images(last_image_grey, new_image_grey):
             last_image_grey = new_image_grey
             new_image.save(f"{FILEPATH}slide{counter}.png")
             counter += 1
