@@ -6,6 +6,9 @@ The script will take a screenshot every [TIMEOUT] seconds, compare this screensh
 One could possibly specify a region of the screen to take the screenshot  
 If the slides are in a video that shows its controls on mouse movement, one can set the boolean CROP_COMPARISON_IMAGE to true and specify the bounding box. This will only affect the image that will be compared, not the final screenshots
 
+# Word of Warning
+If the selected directory already contains files called slide0.png, slide1.png... it will just overwrite them
+
 # Suggested Usage
 The tool is made for online lectures, where the lecturer advances to the next slide before one could copz all the relevant information from a slide. For this, zou could have he location of the screenshots open and, when needed, reopen a previous slide.
 
